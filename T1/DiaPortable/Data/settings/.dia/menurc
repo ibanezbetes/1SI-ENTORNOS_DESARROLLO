@@ -235,6 +235,7 @@
 ; (gtk_accel_path "<DiagramTreeObj>/Sort objects/sep0" "")
 ; (gtk_accel_path "<Actions>/display-actions/ViewNewview" "")
 ; (gtk_accel_path "<DiagramTreeDia>/Sort objects/Default/by type" "")
+; (gtk_accel_path "<Actions>/recent-files/FileRecent_4" "<Control>5")
 ; (gtk_accel_path "<Actions>/tool-actions-1/ToolsText" "t")
 ; (gtk_accel_path "<Actions>/recent-files/FileRecent_2" "<Control>3")
 ; (gtk_accel_path "<Actions>/recent-files/FileRecent_1" "<Control>2")
