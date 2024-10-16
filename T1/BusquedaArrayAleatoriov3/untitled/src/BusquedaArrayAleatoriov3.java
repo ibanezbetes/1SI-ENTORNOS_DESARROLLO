@@ -22,12 +22,19 @@ public class BusquedaArrayAleatoriov3 {
         // Buscar el número en el array
         while (i < 100 && !encontrado) {
             if (array[i] == x) {
+
+                // Si el número está en el array, imprimirlo por pantalla
                 System.out.println("El número " + x + " está en la posición " + i + ".");
+
+                // Y además cambia el valor del booleano "encontrado" a true
                 encontrado = true;
             }
+
+            //Incrementa el valor de i (que es el contador para comparar cada número del array) en 1
             i++;
         }
-        // Si no se encontró el número
+
+        // Si no se encontró el número (por lo tanto el booleano "encontrado" es False) lo escribe por pantalla
         if (!encontrado) {
             System.out.println("No existe el número " + x + " en el array.");
         }
