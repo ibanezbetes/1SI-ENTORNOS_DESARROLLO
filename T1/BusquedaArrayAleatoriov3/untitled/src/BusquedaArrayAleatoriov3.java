@@ -3,35 +3,29 @@ import java.util.Scanner;
 
 public class BusquedaArrayAleatoriov3 {
     public static void main(String[] args) {
-        // Inicializar variables
-        boolean encontrado = false;
-        int [] array = new int[100];
-        int x, i = 0;
 
-        // Leer el número que se va a buscar
+        // Inicializar variables
+        int[] array = new int[100];
+        boolean encontrado = false;
+        int i = 0;
+        Random random = new Random();
+        System.out.println("Introduce un número para comprobarlo en el array: ");
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Introduce un número para buscar en el array: ");
+        int x;
+
+        do {
+            array[i] = random.nextInt(10);
+            i = i + 1;
+        } while (i < 100);
+
         x = scanner.nextInt();
 
-        // Llenar el array con números aleatorios entre 1 y 1000
-        Random random = new Random();
-        for (int j = 0; j < 100; j++) {
-            array[j] = random.nextInt(10) + 1;
-        }
-
-        // Buscar el número en el array
-        while (i < 100 ) {//&& !encontrado) {
-            if (array[i] == x) {
-
-                // Si el número está en el array, imprimirlo por pantalla
-                System.out.println("El número " + x + " está en la posición " + i + ".");
-
-                // Y además cambia el valor del booleano "encontrado" a true
+        // valdría un while o un for
+        for (i = 0; i < 100; i++) {
+            if (array[i] == x){
+                System.out.println("Encontrado en la posición " + i + ".");
                 encontrado = true;
             }
-
-            //Incrementa el valor de i (que es el contador para comparar cada número del array) en 1
-            i++;
         }
 
         // Si no se encontró el número (por lo tanto el booleano "encontrado" es False) lo escribe por pantalla
