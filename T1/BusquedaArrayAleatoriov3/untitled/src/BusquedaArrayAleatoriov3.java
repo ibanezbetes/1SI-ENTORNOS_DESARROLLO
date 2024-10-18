@@ -16,11 +16,11 @@ public class BusquedaArrayAleatoriov3 {
         // Llenar el array con números aleatorios entre 1 y 1000
         Random random = new Random();
         for (int j = 0; j < 100; j++) {
-            array[j] = random.nextInt(1000) + 1;
+            array[j] = random.nextInt(10) + 1;
         }
 
         // Buscar el número en el array
-        while (i < 100 && !encontrado) {
+        while (i < 100 ) {//&& !encontrado) {
             if (array[i] == x) {
 
                 // Si el número está en el array, imprimirlo por pantalla
