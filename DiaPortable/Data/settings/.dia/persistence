@@ -36,7 +36,9 @@
   </dia:window>
   <dia:list role="recent-files">
     <dia:attribute name="listvalue">
-      <dia:string>#C:\Users\daniz\Documents\GitHub\1SI-ENTORNOS_DESARROLLO\T1\Tema1Ejercicio3.dia
+      <dia:string>#C:\Users\daniz\Documents\GitHub\1SI-ENTORNOS_DESARROLLO\T1\HomersEjerc2.dia
+C:\Users\daniz\Documents\GitHub\1SI-ENTORNOS_DESARROLLO\T1\Busqueda en Array aleatorio v3.dia
+C:\Users\daniz\Documents\GitHub\1SI-ENTORNOS_DESARROLLO\T1\Tema1Ejercicio3.dia
 C:\Users\daniz\Documents\DiaPortable\ENTORNOS DESARROLLO\ARRAY DE 6 ALEATORIA.dia
 C:\Users\daniz\Documents\DiaPortable\ARRAY DE 6 ALEATORIA.dia
 C:\Users\daniz\Downloads\Sandwitch ejemplo inicial.dia#</dia:string>
@@ -52,17 +54,17 @@ C:\Users\daniz\Downloads\Sandwitch ejemplo inicial.dia#</dia:string>
       <dia:string>##</dia:string>
     </dia:attribute>
   </dia:list>
-  <dia:list role="diagram-tree-hidden-types">
-    <dia:attribute name="listvalue">
-      <dia:string>##</dia:string>
-    </dia:attribute>
-  </dia:list>
   <dia:list role="color-menu">
     <dia:attribute name="listvalue">
       <dia:string>##</dia:string>
     </dia:attribute>
   </dia:list>
   <dia:list role="font-menu">
+    <dia:attribute name="listvalue">
+      <dia:string>##</dia:string>
+    </dia:attribute>
+  </dia:list>
+  <dia:list role="diagram-tree-hidden-types">
     <dia:attribute name="listvalue">
       <dia:string>##</dia:string>
     </dia:attribute>
