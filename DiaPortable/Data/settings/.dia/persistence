@@ -2,10 +2,10 @@
 <dia:persistence xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
   <dia:window role="dia-main-window">
     <dia:attribute name="xpos">
-      <dia:int val="-8"/>
+      <dia:int val="-88"/>
     </dia:attribute>
     <dia:attribute name="ypos">
-      <dia:int val="-8"/>
+      <dia:int val="1106"/>
     </dia:attribute>
     <dia:attribute name="width">
       <dia:int val="1536"/>
@@ -49,6 +49,11 @@ C:\Users\daniz\Downloads\Sandwitch ejemplo inicial.dia#</dia:string>
       <dia:string>#Diagrama de flujo#</dia:string>
     </dia:attribute>
   </dia:list>
+  <dia:list role="diagram-tree-hidden-types">
+    <dia:attribute name="listvalue">
+      <dia:string>##</dia:string>
+    </dia:attribute>
+  </dia:list>
   <dia:list role="arrow-menu">
     <dia:attribute name="listvalue">
       <dia:string>##</dia:string>
@@ -60,11 +65,6 @@ C:\Users\daniz\Downloads\Sandwitch ejemplo inicial.dia#</dia:string>
     </dia:attribute>
   </dia:list>
   <dia:list role="font-menu">
-    <dia:attribute name="listvalue">
-      <dia:string>##</dia:string>
-    </dia:attribute>
-  </dia:list>
-  <dia:list role="diagram-tree-hidden-types">
     <dia:attribute name="listvalue">
       <dia:string>##</dia:string>
     </dia:attribute>
